@@ -1,0 +1,28 @@
+{
+  "name": "sails-persistence-sns",
+  "version": "0.1.0",
+  "description": "Automatically stream all Sails model persistence events to an SNS topic",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theconnman/sails-persistence-sns.git"
+  },
+  "keywords": [
+    "Sails",
+    "sails",
+    "persistence",
+    "sns"
+  ],
+  "author": "TheConnMan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theconnman/sails-persistence-sns/issues"
+  },
+  "homepage": "https://github.com/theconnman/sails-persistence-sns#readme",
+  "dependencies": {
+    "aws-sdk": "^2.36.0",
+    "bluebird": "^3.5.0",
+    "extend": "^3.0.0",
+    "log4js": "^1.1.1"
+  }
+}
